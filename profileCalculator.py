@@ -1,8 +1,10 @@
 import math
 
 print('Profile Calculator by Kolter Saurey (March 2023)')
-again = 'y'
-while(again == 'y'):
+measurement = 1
+while(True):
+    print(f'\nMeasurement {measurement}')
+    measurement = measurement + 1
     print('Length : ', end='')
     length = float(input())
     print('Parallelism : ', end='')
@@ -13,10 +15,4 @@ while(again == 'y'):
     profile = round(2.0 * max(float(abs(minPoint)), float(abs(maxPoint))),4)
 
     print(f'Profile: {profile} ({minPoint}/{maxPoint})')
-    while True:
-        again = ""
-        print('Again? (y/n): ', end='')
-        again = input()
-        if again == 'y' or again == 'n':
-            break
     print()

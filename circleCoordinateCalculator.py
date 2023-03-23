@@ -1,8 +1,10 @@
 import math
 
 print('Circle Coordinate Calculator by Kolter Saurey (March 2023)')
-again = 'y'
-while(again == 'y'):
+measurement = 1
+while(True):
+    print(f'\nMeasrement {measurement}')
+    measurement = measurement + 1
     print('Radius: ', end='')
     radius = float(input())
     print('Angle : ', end='')
@@ -13,10 +15,4 @@ while(again == 'y'):
 
     print(f'x = {x}')
     print(f'y = {y}')
-    while True:
-        again = ""
-        print('Again? (y/n): ', end='')
-        again = input()
-        if again == 'y' or again == 'n':
-            break
     print()
