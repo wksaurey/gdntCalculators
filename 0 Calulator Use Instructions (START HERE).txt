@@ -1,0 +1,15 @@
+To use calculators, install python through the following link. Then, just click on the calculator you need and select Python 3.10 to open. 
+https://www.microsoft.com/store/productId/9PJPW5LDXLZ5
+
+The tolerance of these calculators is ±.0001 due to how rounding is handled. 
+
+Circle Coordinate Calculator:
+    * This calculator is used to find the X and Y coordinates from a circle (radius and angle). It will consider 0 degrees the top of the circle and continue clockwise. 
+ 
+Position Calculator:
+    * This calculator is used to find the GD&T position from the difference of distance from nominal in the X and Y directions. 
+
+Profile Calculator:
+    * This Calculator is used to find the GD&T position from the difference of perpendicular distance from nominal and the parallelism from nominal. 
+
+- These calculators were built by Kolter Saurey (March 2023)
