@@ -3,7 +3,7 @@ import math
 print('Circle Coordinate Calculator by Kolter Saurey (March 2023)')
 measurement = 1
 while(True):
-    print(f'\nMeasrement {measurement}')
+    print(f'\nMeasurement {measurement}')
     measurement = measurement + 1
     print('Radius: ', end='')
     radius = float(input())
